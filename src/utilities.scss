@@ -1,0 +1,36 @@
+$main-color-1 : #A5A5A5;
+$main-color-2 : #595959; 
+$main-color-3 : #FFBF00; 
+$main-color-4 : #2E0014; 
+$main-color-5 : #CC5803; 
+$main-color-6 : #D6D6D6; 
+
+$main-background-color : #FFFDF7;
+
+$font-family-1 : 'Roboto Condensed', sans-serif;
+$font-family-2 : 'Kalnia', serif;
+
+@mixin center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .icon-bounce {
+    display: inline-block;
+    animation: bounce 2s infinite;
+  }

@@ -1,0 +1,20 @@
+.realisations__home{
+    
+
+    &-description{
+        @include center;
+        padding: 7% 10%;
+
+        &-title{
+            font-family: $font-family-2;
+            font-size: 1.6rem;
+            color: $main-color-4;
+            text-transform: uppercase;
+
+        }
+    }
+
+    &-scroller{
+
+    }
+}
