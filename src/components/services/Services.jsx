@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import bannerLeft from "../../assets/plomberie-tuyaux.webp";
-import bannerCenter from "../../assets/chaudière-appartement.webp";
+import bannerCenter from "../../assets/chaudiere-appartement.webp";
 import bannerRight from "../../assets/metallier-travail.webp";
 
 export default function Services () {
