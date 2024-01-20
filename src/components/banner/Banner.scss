@@ -49,6 +49,12 @@ flex-wrap: wrap;
                 height: 40px;
                 border-radius: 20px;
                 @include center;
+                &-icon{
+                    color: black;
+                    &:active{
+                        color: black;
+                    }
+                }
             }
         }
     }

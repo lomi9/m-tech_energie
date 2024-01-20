@@ -4,11 +4,22 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.scss";
 import "./styles.scss";
+import Home from "./pages/Home.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Home />
+      </>
+    ),
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
 ]);
 
