@@ -32,12 +32,8 @@ const router = createBrowserRouter([
   },
 ]);
 
-const routerInstance = createBrowserRouter(router, {
-  basename: process.env.PUBLIC_URL,
-});
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={routerInstance} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
