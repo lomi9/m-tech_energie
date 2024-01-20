@@ -2,6 +2,7 @@ import Banner from "../components/banner/Banner";
 import Navbar from "../components/navbar/Navbar";
 import Services from "../components/services/Services";
 import WorksHome from "../components/realisations/Realisations.jsx";
+import Footer from "../components/footer/Footer.jsx";
 
 
 export default function Home () {
@@ -17,6 +18,7 @@ export default function Home () {
         </header>
         <Services/>
         <WorksHome/>
+        <Footer/>
         </>
     )
 }

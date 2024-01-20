@@ -18,3 +18,22 @@
 
     }
 }
+
+@media (max-width : 480px) {
+    .realisations__home-description{
+        padding: 0;
+    &-title{
+        font-size: 4.5vw;
+        line-height: 1.3rem;
+        padding-bottom: 5%;
+        padding: 10% 6%;
+        text-align: center;
+    }
+    &-text{
+        padding: 0 10% 14% 10%;
+        text-align: start;
+        font-size: 3vw;
+        line-height: 1.2rem;
+    }
+}
+}

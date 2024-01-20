@@ -29,6 +29,7 @@ export default function Realisations () {
         <div className="realisations__home">
             <div className="realisations__home-description">
                 <h2 className="realisations__home-description-title">Découvrez nos dernières réalisations</h2>
+                <p className="realisations__home-description-text">Nous réalisons un travail soigné et livré dans les délais. Après notre intervention, nous vous garantissons un chantier propre. Grâce à notre savoir-faire et notre professionnalisme, nous sommes en mesure de réaliser de petites et grosses installations de plomberie, chauffage et de métallerie.</p>
             </div>
             <div className="realisations__home-scroller">
                 <Scroller images={images} />
