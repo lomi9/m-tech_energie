@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
 import "./index.scss";
 import "./styles.scss";
 import Home from "./pages/Home.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import Plomberie from "./pages/plomberie/Plomberie.jsx";
+
+const routerInstance = createBrowserRouter(router, {
+  basename: process.env.PUBLIC_URL,
+});
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={routerInstance} />
   </React.StrictMode>
 );
