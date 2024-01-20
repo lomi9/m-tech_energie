@@ -5,6 +5,7 @@
 @import "./components/scroller/Scroller.scss";
 @import "./components/realisations/Realisations.scss";
 @import "./components/footer/Footer.scss";
+@import "./pages/plomberie/Plomberie.scss";
 
 #root{
     background-color: #FFFDF7;
@@ -13,6 +14,7 @@
    box-sizing: border-box;
    font-size: 16px;
    font-family: 'Roboto Condensed', sans-serif;
+   scroll-behavior: smooth;
 }
 
 body {

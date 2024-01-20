@@ -6,6 +6,7 @@ import "./index.scss";
 import "./styles.scss";
 import Home from "./pages/Home.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import Plomberie from "./pages/plomberie/Plomberie.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,15 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/plomberie",
+    element: (
+      <>
+        <ScrollToTop />
+        <Plomberie />
+      </>
+    ),
   },
 ]);
 

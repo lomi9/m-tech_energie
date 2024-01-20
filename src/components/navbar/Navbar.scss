@@ -46,6 +46,22 @@
             justify-content: space-between;
             font-family: $font-family-1;
             color: $main-color-2;
+            &-item{
+              padding: 3% 1.5%;
+              text-decoration: none;
+              transition: color 0.3s ease; 
+              transition: background-color 0.3s ease;
+              border-radius: 5px;
+                &:hover {
+                 background-color: $main-color-5;
+                color: $main-background-color;                }
+              &:active{
+                color: $main-color-2;
+              }
+              &:visited{
+                color: $main-color-2;
+              }
+            }
         }
     }
 }
