@@ -3,7 +3,7 @@ import bannerLeft from "../../assets/plomberie-tuyaux.webp";
 import bannerCenter from "../../assets/chaudiere-appartement.webp";
 import bannerRight from "../../assets/metallier-travail.webp";
 
-export default function Services () {
+export default function About () {
     const [hoverState, setHoverState] = useState({ plomberie: false, chauffage: false, metallier: false });
 
     return (

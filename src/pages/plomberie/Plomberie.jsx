@@ -1,6 +1,6 @@
 import Navbar from "../../components/navbar/Navbar";
-import PlomberieServices from "../../components/plomberieServices/PlomberieServices";
-import SectionHeader from "../../components/sectionHeader/SectionHeader";
+import Prestations from "../../components/prestations/Prestations";
+import Article from "../../components/article/Article";
 import plomberie1 from "../../assets/salle_de_bain_douche_1.webp";
 import plomberie2 from "../../assets/douche_italienne_1.webp";
 import plomberie3 from "../../assets/douche_2.webp";
@@ -31,9 +31,9 @@ export default function Plomberie () {
         <div className="header__navbar">
         <Navbar/>
         </div>
-        <SectionHeader title={title1} text={text1} />
-        <PlomberieServices/>
-        <SectionHeader title={title2} text={text2} />
+        <Article title={title1} text={text1} />
+        <Prestations/>
+        <Article title={title2} text={text2} />
         <Scroller images={images} />
         <Footer/>
         </>

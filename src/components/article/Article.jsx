@@ -1,6 +1,6 @@
 
 
-export default function SectionHeader ({ title, text }) {
+export default function Article ({ title, text }) {
 
     return (
         <section className="section__header">

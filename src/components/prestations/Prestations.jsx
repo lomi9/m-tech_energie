@@ -1,6 +1,6 @@
 import image1 from "../../assets/plomberie-baignoire.webp";
 
-export default function PlomberieServices () {
+export default function Prestations () {
     return (
         <section className="plomberie__services">
 

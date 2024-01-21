@@ -1,6 +1,6 @@
 import Banner from "../components/banner/Banner";
 import Navbar from "../components/navbar/Navbar";
-import Services from "../components/services/Services";
+import About from "../components/about/About.jsx";
 import WorksHome from "../components/realisations/Realisations.jsx";
 import Footer from "../components/footer/Footer.jsx";
 
@@ -16,7 +16,7 @@ export default function Home () {
         <Banner/>
         </div>
         </header>
-        <Services/>
+        <About/>
         <WorksHome/>
         <Footer/>
         </>
