@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Mail } from 'lucide-react';
 import logo from "../../assets/logo-mtech-energie.png";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Navbar () {
 
@@ -28,7 +29,7 @@ export default function Navbar () {
             </div>
             <div className="navbar__right">
                 <nav className={`navbar__right-nav ${menuOpen ? 'navbar__right-nav--open' : ''}`}>
-                    <a href="#about" className="navbar__right-nav-item">À propos</a>
+                    <HashLink to="/home#about" className="navbar__right-nav-item">À propos</HashLink>
                     <Link to="/plomberie" className="navbar__right-nav-item">Plomberie</Link>
                     <p className="navbar__right-nav-item">Chauffage</p>
                     <p className="navbar__right-nav-item">Métallerie</p>
