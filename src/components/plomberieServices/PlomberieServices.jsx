@@ -2,7 +2,7 @@ import image1 from "../../assets/plomberie-baignoire.webp";
 
 export default function PlomberieServices () {
     return (
-        <div className="plomberie__services">
+        <section className="plomberie__services">
 
             <div className="plomberie__services-left">
                 <div className="plomberie__services-left-image">
@@ -10,7 +10,7 @@ export default function PlomberieServices () {
                 </div>
             </div>
 
-            <div className="plomberie__services-right">
+            <article className="plomberie__services-right">
                 <div className="plomberie__services-right-title">
                     <h2 className="plomberie__services-right-title-h1">
                         Prestations
@@ -28,9 +28,9 @@ export default function PlomberieServices () {
 
                     </ul>
                 </div>
-            </div>
+            </article>
 
 
-        </div>
+        </section>
     )
 }

@@ -11,7 +11,7 @@ export default function Services () {
 
             <section className="services" id="about">
                 <div className="services__presentation">
-                    <div className="services__presentation-content">
+                    <article className="services__presentation-content">
                         <h2 className="services__presentation-content-title">
                             Votre partenaire de confiance, <br/> pour des solutions innovantes.
                         </h2>
@@ -19,7 +19,7 @@ export default function Services () {
                         Forts de plus de 14 années d'expérience, nous nous engageons à offrir un service de qualité supérieure, adapté à vos besoins uniques. Notre équipe d'experts combine savoir-faire technique et créativité pour transformer chaque projet en succès. Chez nous, votre satisfaction est notre priorité. Découvrez comment nous pouvons apporter une valeur ajoutée à votre espace de vie ou de travail. Nous intervenons principalement dans la région de Bourgoin-Jallieu et Lyon autant pour des particuliers que pour des professionnels .
                         </p>
 
-                    </div>
+                    </article>
 
                 </div>
             
