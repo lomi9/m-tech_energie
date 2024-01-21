@@ -31,9 +31,9 @@ export default function Navbar () {
                 <nav className={`navbar__right-nav ${menuOpen ? 'navbar__right-nav--open' : ''}`}>
                     <HashLink to="/home#about" className="navbar__right-nav-item">À propos</HashLink>
                     <Link to="/plomberie" className="navbar__right-nav-item">Plomberie</Link>
-                    <p className="navbar__right-nav-item">Chauffage</p>
-                    <p className="navbar__right-nav-item">Métallerie</p>
-                    <p className="navbar__right-nav-item"> <Mail /></p>
+                    <Link to="/chauffage" className="navbar__right-nav-item">Chauffage</Link>
+                    <Link to="/metallerie" className="navbar__right-nav-item">Métallerie</Link>
+                    <HashLink to="#contact" className="navbar__right-nav-item"> <Mail /></HashLink>
                 </nav>
                 <a href="/home" className="navbar__right-logo">
                     <img src={logo} alt="M-TECH ENERGIE - Plomberie, chauffage, métallerie" className="navbar__right-logo-img"/>

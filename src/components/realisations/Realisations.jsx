@@ -34,9 +34,6 @@ export default function Realisations () {
             <div className="realisations__home-scroller">
                 <Scroller images={images} />
             </div>
-            <div className="realisations__home-description">
-                <h2 className="realisations__home-description-title">Découvrez nos dernières réalisations</h2>
-            </div>
         </section>
     );
 }

@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 import About from "../components/about/About.jsx";
 import WorksHome from "../components/realisations/Realisations.jsx";
 import Footer from "../components/footer/Footer.jsx";
+import Contact from "../components/contact/Contact.jsx";
 
 
 export default function Home () {
@@ -18,6 +19,7 @@ export default function Home () {
         </header>
         <About/>
         <WorksHome/>
+        <Contact/>
         <Footer/>
         </>
     )

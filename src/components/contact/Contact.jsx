@@ -36,7 +36,7 @@ const closeModal = () => {
 
 
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="contact__header">
                 <h4 className="contact__header-title">
                 Vous souhaitez nous faire part de votre projet? contactez nous!
