@@ -74,7 +74,9 @@ flex-wrap: wrap;
     .banner__top-filter-content-text{
         font-size: 5vw;
     }
-
+    .banner__top-filter-scroll{
+        bottom: 10vw;
+    }
 
 }
 
@@ -89,5 +91,8 @@ flex-wrap: wrap;
         font-size: 3.5vw;
     }
 
+    .banner__top-filter-scroll{
+        bottom: 10vw;
+    }
 
 }
