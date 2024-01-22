@@ -78,8 +78,13 @@
   }
 
 @media (max-width : 480px ){
+
+  .scroller{
+    margin: 0;
+  }
     .image-container{
         height: 70vw !important;
+        border-radius: 0 !important;
     }
 }
   

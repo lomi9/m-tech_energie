@@ -9,11 +9,17 @@ import image7 from "../../assets/metallerie_4.jpeg";
 import image8 from "../../assets/plomberie_7.jpg";
 import image9 from "../../assets/metallerie_3.jpeg";
 import image10 from "../../assets/plomberie_4.jpg";
+import plomberie1 from "../../assets/salle_de_bain_douche_1.webp";
+import plomberie2 from "../../assets/douche_italienne_1.webp";
+import plomberie3 from "../../assets/douche_2.webp";
 
 export default function Realisations () {
 
     const images = [
         { url: image1, description: "Fabrication d'une table basse sur-mesure." },
+        { url: plomberie1, description: "Réalisation complète d'une salle de douche" },
+        { url: plomberie2, description: "Réalisation complète d'une salle de bain" },
+        { url: plomberie3, description: "Réalisation complète d'une salle de douche" },
         { url: image2, description: 'Pose de nourrices pour plancher chauffant.' },
         { url: image3, description: 'Pose de circuits pour chauffage au sol.' },
         { url: image4, description: "Fabrication et installation d'un portillon, avec peinture epoxy coloris 7016." },

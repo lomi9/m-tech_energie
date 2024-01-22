@@ -17,10 +17,19 @@
             font-weight: 400;
             line-height: 5vw;
             font-size: 4.5vw;
-            padding: 10% 5%;
+            padding: 10% 5% 0 5%;
             text-align: center;
             color: $main-color-7;
-    }
+    }&-text{
+        font-family: $font-family-2;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 5vw;
+        font-size: 4.5vw;
+        padding: 5% 5% 10% 5%;
+        text-align: center;
+        color: $main-color-5;
+}
 
     }
     &__content{

@@ -19,6 +19,14 @@ $font-family-2 : 'Kalnia', serif;
     align-content: center;
 }
 
+@mixin title-desktop-style{
+  font-family: $font-family-2;
+  font-weight: 400;
+  line-height: 5vw;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+
 @mixin title-mobile-style{
   font-family: $font-family-2;
   font-weight: 400;

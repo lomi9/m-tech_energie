@@ -39,8 +39,11 @@ const closeModal = () => {
         <section className="contact" id="contact">
             <div className="contact__header">
                 <h4 className="contact__header-title">
-                Vous souhaitez nous faire part de votre projet? contactez nous!
+                Vous souhaitez nous faire part de votre projet?
                 </h4>
+                <p className="contact__header-text">
+                Contactez nous!
+                </p>
 
             </div>
             <div className="contact__content">
