@@ -6,7 +6,7 @@ import chauffage2 from "../../assets/chauffage_2.jpg";
 import chauffage3 from "../../assets/chauffage_3.jpeg";
 import chauffage4 from "../../assets/plomberie_1.jpeg";
 import Scroller from "../../components/scroller/Scroller";
-import imageChauffage from "../../assets/chaudiere-appartement.webp";
+import cardChauffage from "../../assets/card-chaudiere-appartement.webp";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/contact/Contact";
 
@@ -23,7 +23,7 @@ export default function Chauffage () {
       const title1 = "Nos services de chauffage";
       const text1 ="Chez M-Tech ENERGIE, nous proposons des solutions personnalisées pour la création, l'entretien et le diagnostic de vos installations de chauffage. Que ce soit pour un projet neuf, une rénovation ou une amélioration énergétique, nous garantissons un service de qualité, et adapté à vos besoins spécifiques."
 
-      const chauffageImage = imageChauffage;
+      const chauffageImage = cardChauffage;
 
       const title2 = "Nos Services de chauffage en images";
       const text2 ="Dans notre galerie, explorez la diversité de nos projets, incluant l'installation de chauffages au sol, de chaudières, et d'autres systèmes. Chaque photo témoigne de notre polyvalence et de notre savoir-faire."

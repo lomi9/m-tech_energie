@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import bannerLeft from "../../assets/plomberie-tuyaux.webp";
-import bannerCenter from "../../assets/chaudiere-appartement.webp";
-import bannerRight from "../../assets/metallier-travail.webp";
+import cardLeft from "../../assets/card-plomberie-tuyaux.webp";
+import cardCenter from "../../assets/card-chaudiere-appartement.webp";
+import cardRight from "../../assets/card-metallier-travail-2.webp";
 
 export default function About () {
     const [hoverState, setHoverState] = useState({ plomberie: false, chauffage: false, metallier: false });
@@ -25,7 +25,7 @@ export default function About () {
             
             <div className="services__cards">
                 <div className="services__cards-card">
-                <img src={bannerLeft} alt="Plomberie"  className={`services__cards-card-img ${hoverState.plomberie ? 'zoomed' : ''}`}/>
+                <img src={cardLeft} alt="Plomberie"  className={`services__cards-card-img ${hoverState.plomberie ? 'zoomed' : ''}`}/>
                 <div className={`services__cards-card-filter ${hoverState.plomberie ? 'darkened' : ''}`}>
                     <h3 className="services__cards-card-filter-title">
                      Plomberie
@@ -41,7 +41,7 @@ export default function About () {
                 </div>
                 </div>
                 <div className="services__cards-card">
-                <img src={bannerCenter} alt="Chauffage" className={`services__cards-card-img ${hoverState.chauffage ? 'zoomed' : ''}`}/>
+                <img src={cardCenter} alt="Chauffage" className={`services__cards-card-img ${hoverState.chauffage ? 'zoomed' : ''}`}/>
                 <div className={`services__cards-card-filter ${hoverState.chauffage ? 'darkened' : ''}`}>
                     <h3 className="services__cards-card-filter-title">
                      Chauffage
@@ -57,7 +57,7 @@ export default function About () {
                 </div>
                 </div>
                 <div className="services__cards-card">
-                <img src={bannerRight} alt="Métallerie" className={`services__cards-card-img ${hoverState.metallier ? 'zoomed' : ''}`}/>
+                <img src={cardRight} alt="Métallerie" className={`services__cards-card-img ${hoverState.metallier ? 'zoomed' : ''}`}/>
                 <div className={`services__cards-card-filter ${hoverState.metallier ? 'darkened' : ''}`}>
                     <h3 className="services__cards-card-filter-title">
                      Métallerie

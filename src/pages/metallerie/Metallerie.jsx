@@ -15,7 +15,7 @@ import metallerie9 from "../../assets/metallerie_9.jpeg";
 import metallerie10 from "../../assets/metallerie_10.jpeg";
 import metallerie11 from "../../assets/metallerie_11.jpg";
 import metallerie12 from "../../assets/metallerie_12.jpg";
-import metallerie from "../../assets/metallier-travail.webp";
+import cardMetallerie from "../../assets/card-metallier-travail-2.webp";
 import Scroller from "../../components/scroller/Scroller";;
 
 
@@ -39,7 +39,7 @@ export default function Metallerie () {
       const title1 = "Nos services de métallerie";
       const text1 ="De la conception de meubles sur mesure à la fabrication d'éléments structuraux personnalisés, notre équipe excelle dans l'art de la métallerie. Chacune de nos créations est façonnée avec précision et créativité, en mêlant esthétique et fonctionnalité. Nos techniques de soudure, perçage, pliage et découpe nous permettent de répondre à la totalité de vos besoins, enrichissant vos espaces de vie intérieurs et extérieurs."
 
-      const metallerieImage = metallerie;
+      const metallerieImage = cardMetallerie;
 
       const title2 = "Nos Services de métallerie en images";
       const text2 ="Notre galerie de photos illustre notre expertise dans la fabrication sur mesure de tables basses, garde-corps, escaliers et portails extérieurs. Chaque image dévoile notre passion pour le travail du métal, soulignant notre capacité à transformer des idées en réalisations uniques et personnalisées."
