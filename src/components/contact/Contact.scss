@@ -165,3 +165,50 @@
         }
     }
 }
+
+@media (max-width : 480px) {
+    .contact{
+
+        &__header-title{
+            font-size: 4vw;
+            line-height: 5vw;
+            padding-top: 20vw;
+        }
+        &__content{
+            flex-direction: column;
+            &-left{
+                width: 100%;
+                padding-bottom: 10vw;
+                &-form{
+                    &-label{
+                        font-size: 3vw;
+                    }
+
+                    &-input{
+                        width: 70vw;
+                        padding: 3vw;
+                        margin-bottom: 3vw;
+                        font-size: 3.5vw;
+                    }
+                    &-textarea {
+                        width: 70vw;
+                        padding: 3vw 3vw 33vw 3vw ;
+                        font-size: 3.5vw;
+                    }
+                }
+            }
+            &-right{
+                width: 100%;
+            }
+        }
+    }
+
+    .modal__content{
+        width: 60vw;
+        &-text{
+            font-size: 3.5vw;
+            line-height: 5vw;
+            padding-bottom: 3vw;
+        }
+    }
+}
