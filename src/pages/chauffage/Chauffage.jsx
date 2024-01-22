@@ -30,13 +30,15 @@ export default function Chauffage () {
 
       const prestationsTitle = "Prestations";
       const prestationsList = [
-        "Installations sanitaires complètes",
-        "Création de douches à l'italienne",
-        "Remplacement et maintenance de chauffe-eau",
-        "Installation de solutions WC modernes et éco-responsables",
-        "Installation de plomberie pour votre cuisine",
-        "Mise en place de VMC",
-        "Travaux de zinguerie pour une finition impeccable",
+        "Entretien de chaudières",
+        "Installation de nouvelles chaudières",
+        "Maintenance de circulateurs",
+        "Pose de sèche-serviettes",
+        "Vérification de vases d'expansion (Flexcon)",
+        "Inspection de soupapes de sécurité",
+        "Désembuage de planchers chauffants",
+        "Installation de planchers chauffants",
+        "Diagnostics complets de systèmes de chauffage",
     ];
 
     return (

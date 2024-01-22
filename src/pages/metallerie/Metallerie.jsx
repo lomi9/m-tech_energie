@@ -37,22 +37,23 @@ export default function Metallerie () {
 
       ];
       const title1 = "Nos services de métallerie";
-      const text1 ="Chez M-Tech ENERGIE, nous proposons des solutions personnalisées pour la création, l'entretien et le diagnostic de vos installations de chauffage. Que ce soit pour un projet neuf, une rénovation ou une amélioration énergétique, nous garantissons un service de qualité, et adapté à vos besoins spécifiques."
+      const text1 ="De la conception de meubles sur mesure à la fabrication d'éléments structuraux personnalisés, notre équipe excelle dans l'art de la métallerie. Chacune de nos créations est façonnée avec précision et créativité, en mêlant esthétique et fonctionnalité. Nos techniques de soudure, perçage, pliage et découpe nous permettent de répondre à la totalité de vos besoins, enrichissant vos espaces de vie intérieurs et extérieurs."
 
       const metallerieImage = metallerie;
 
       const title2 = "Nos Services de métallerie en images";
-      const text2 ="Dans notre galerie, explorez la diversité de nos projets, incluant l'installation de chauffages au sol, de chaudières, et d'autres systèmes. Chaque photo témoigne de notre polyvalence et de notre savoir-faire."
+      const text2 ="Notre galerie de photos illustre notre expertise dans la fabrication sur mesure de tables basses, garde-corps, escaliers et portails extérieurs. Chaque image dévoile notre passion pour le travail du métal, soulignant notre capacité à transformer des idées en réalisations uniques et personnalisées."
 
       const prestationsTitle = "Prestations";
       const prestationsList = [
-        "Installations sanitaires complètes",
-        "Création de douches à l'italienne",
-        "Remplacement et maintenance de chauffe-eau",
-        "Installation de solutions WC modernes et éco-responsables",
-        "Installation de plomberie pour votre cuisine",
-        "Mise en place de VMC",
-        "Travaux de zinguerie pour une finition impeccable",
+        "Ameublement intérieur sur mesure : Conception et réalisation de pièces uniques adaptées à votre espace.",
+        "Fabrication et pose de verrières",
+        "Fabrication de portillons extérieurs",
+        "Conception de portails électriques pratiques et sécurisés",
+        "Création de pièces décoratives qui ajoutent une touche unique à votre intérieur.",
+        "Réalisation de gardes-corps sécurisés et personnalisés",
+        "Conception d'escaliers sur mesure",
+        "Projets personnalisés : Nous sommes à votre écoute pour réaliser tout autre projet selon vos désirs et spécifications.",
     ];
 
     return (
