@@ -42,9 +42,6 @@ export default function Metallerie () {
         { url: metallerie12, description: "Description" },
 
       ];
-      const title1 = "Nos services de métallerie";
-      const text1 ="De la conception de meubles sur mesure à la fabrication d'éléments structuraux personnalisés, notre équipe excelle dans l'art de la métallerie. Chacune de nos créations est façonnée avec précision et créativité, en mêlant esthétique et fonctionnalité. Nos techniques de soudure, perçage, pliage et découpe nous permettent de répondre à la totalité de vos besoins, enrichissant vos espaces de vie intérieurs et extérieurs."
-
       const metallerieImage = cardMetallerie;
 
       const title2 = "Nos Services de métallerie en images";

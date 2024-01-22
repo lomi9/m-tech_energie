@@ -26,9 +26,6 @@ export default function Chauffage () {
         { url: chauffage1, description: "Description" },
 
       ];
-      const title1 = "Nos services de chauffage";
-      const text1 ="Chez M-Tech ENERGIE, nous proposons des solutions personnalisées pour la création, l'entretien et le diagnostic de vos installations de chauffage. Que ce soit pour un projet neuf, une rénovation ou une amélioration énergétique, nous garantissons un service de qualité, et adapté à vos besoins spécifiques."
-
       const chauffageImage = cardChauffage;
 
       const title2 = "Nos Services de chauffage en images";

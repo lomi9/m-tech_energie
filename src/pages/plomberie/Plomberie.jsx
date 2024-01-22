@@ -27,9 +27,7 @@ export default function Plomberie () {
         { url: plomberie5, description: "Installation complète d'une salle de bain" },
 
       ];
-      const title1 = "Nos services de plomberie";
-      const text1 =" Chez M Tech ENERGIE, nous offrons des services complets allant de l'installation neuve à la rénovation de votre plomberie sanitaire.  Nos compétences techniques nous permettent de répondre à une large gamme de besoins : de l'entretien minutieux au dépannage efficace. Notre équipe qualifiée s'engage également dans la mise en place de solutions durables."
-
+      
       const imagePrestations = prestationsImage;
       const title2 = "Nos Services de Plomberie en Images";
       const text2 ="Explorez notre sélection de projets de plomberie où chaque intervention témoigne de notre volonté de vous offrir des services fiables et efficaces. De la réparation mineure aux créations entières de salles de bain, ces images illustrent notre engagement à répondre à vos besoins avec professionnalisme et attention aux détails. "
