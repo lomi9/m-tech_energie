@@ -39,6 +39,7 @@ flex-wrap: wrap;
                 }
             }
             &-scroll{
+                z-index: 81;
                 position: absolute;
                 bottom: 2px;
                 left: 50%;
@@ -50,6 +51,7 @@ flex-wrap: wrap;
                 border-radius: 20px;
                 @include center;
                 &-icon{
+                    z-index: 81;
                     color: black;
                     &:active{
                         color: black;
@@ -65,12 +67,12 @@ flex-wrap: wrap;
 @media (max-width : 480px) {
 
     .banner__top-filter-content-title{
-        font-size: 7vw;
+        font-size: 9vw;
         padding-bottom: 7%;
     }
 
     .banner__top-filter-content-text{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 

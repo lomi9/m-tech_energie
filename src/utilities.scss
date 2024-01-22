@@ -19,6 +19,22 @@ $font-family-2 : 'Kalnia', serif;
     align-content: center;
 }
 
+@mixin title-mobile-style{
+  font-family: $font-family-2;
+  font-weight: 400;
+  line-height: 5vw;
+  font-size: 4.5vw;
+}
+
+@mixin text-mobile-style{
+  font-family: $font-family-1;
+        font-weight: 200;
+        line-height: 5.2vw;
+        font-size: 4vw;
+        text-align: justify;
+}
+
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);

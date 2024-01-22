@@ -24,7 +24,7 @@ export default function Metallerie () {
 
     const topImage = cardMetallerie;
     const pageTitle = "Nos services de métallerie";
-    const pageText = "Notre galerie de photos illustre notre expertise dans la fabrication sur mesure de tables basses, garde-corps, escaliers et portails extérieurs. Chaque image dévoile notre passion pour le travail du métal, soulignant notre capacité à transformer des idées en réalisations uniques et personnalisées.";
+    const pageText = "De la conception de meubles sur mesure à la fabrication d'éléments structuraux personnalisés, notre équipe excelle dans l'art de la métallerie. Chacune de nos créations est façonnée avec précision et créativité, en mêlant esthétique et fonctionnalité. Nos techniques de soudure, perçage, pliage et découpe nous permettent de répondre à la totalité de vos besoins, enrichissant vos espaces de vie intérieurs et extérieurs.";
 
 
     const images = [
@@ -42,6 +42,7 @@ export default function Metallerie () {
         { url: metallerie12, description: "Description" },
 
       ];
+
       const metallerieImage = cardMetallerie;
 
       const title2 = "Nos Services de métallerie en images";

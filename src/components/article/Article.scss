@@ -1,5 +1,8 @@
+@import "../../utilities.scss";
+
 .section__header{
     width: 100%;
+    background-color: $main-background-color;
 
     &-content{
         width: 100%;
@@ -35,14 +38,13 @@
     .section__header{
     
     &-content{
-        padding: 20% 5% 10% 5%;
+        padding: 7% 7% 10% 7%;
         &-title{
-            font-size: 4.6vw;
+            @include title-mobile-style;
         }
 
         &-text{
-            font-size: 3.5vw;
-            line-height: 4.5vw;
+            @include text-mobile-style;
         }
     }
 }

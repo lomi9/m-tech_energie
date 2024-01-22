@@ -1,3 +1,4 @@
+@import "../../utilities.scss";
 
 .topimage{
     display: flex;
@@ -79,8 +80,8 @@
     
     &__text{
         &-p{
-            font-size: 3.5vw;
-            line-height: 4.5vw;
+           @include text-mobile-style;
+           padding-top: 7%;
         }
         
     }

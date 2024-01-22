@@ -2,6 +2,7 @@
     @include center;
     width: 100%;
     background-color: $main-background-color;
+    background-color: $main-background-color;
 
     &__presentation{
         @include center;
@@ -111,15 +112,19 @@
         padding: 10% 0;
     
     &-content-title{
-        font-size: 4.5vw;
-        line-height: 1.3rem;
         padding-bottom: 5%;
+        font-family: $font-family-2;
+        font-weight: 400;
+        line-height: 5vw;
+        font-size: 4.5vw;
     }
     &-content-text {
-        font-size: 3vw;
-        text-align: start;
-        line-height: 1.2rem;
         padding: 5% 10%;
+        font-family: $font-family-1;
+        font-weight: 300;
+        line-height: 5.2vw;
+        font-size: 4vw;
+        text-align: justify;
     }
 }
 

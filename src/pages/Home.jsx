@@ -13,14 +13,16 @@ export default function Home () {
         <div className="header__navbar">
         <Navbar/>
         </div>
+        </header>
         <div className="header__banner">
         <Banner/>
         </div>
-        </header>
+        <div className="home__content">
         <About/>
         <WorksHome/>
         <Contact/>
         <Footer/>
+        </div>
         </>
     )
 }
