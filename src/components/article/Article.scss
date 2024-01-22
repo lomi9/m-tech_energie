@@ -18,7 +18,7 @@
         &-text{
             font-weight: 200;
             font-size: 2.5vw;
-            text-align: start;
+            text-align: center;
             line-height: 3vw;
 
         }
@@ -27,6 +27,23 @@
 
 @media ( max-width : 768px ) {
     .section__header-content{
-        padding-top: 20%;
+
     }
+}
+
+@media ( max-width : 480px ) {
+    .section__header{
+    
+    &-content{
+        padding: 20% 5% 10% 5%;
+        &-title{
+            font-size: 4.6vw;
+        }
+
+        &-text{
+            font-size: 3.5vw;
+            line-height: 4.5vw;
+        }
+    }
+}
 }

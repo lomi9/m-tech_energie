@@ -9,9 +9,15 @@ import Scroller from "../../components/scroller/Scroller";
 import cardChauffage from "../../assets/card-chaudiere-appartement.webp";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/contact/Contact";
+import TopImage from "../../components/topImage/TopImage";
 
 
 export default function Chauffage () {
+
+    const topImage = cardChauffage;
+    const pageTitle = "Nos services de chauffage";
+    const pageText = "Chez M-Tech ENERGIE, nous proposons des solutions personnalisées pour la création, l'entretien et le diagnostic de vos installations de chauffage. Que ce soit pour un projet neuf, une rénovation ou une amélioration énergétique, nous garantissons un service de qualité, et adapté à vos besoins spécifiques.";
+
 
     const images = [
         { url: chauffage2, description: "Description" },
@@ -46,7 +52,7 @@ export default function Chauffage () {
         <div className="header__navbar">
         <Navbar/>
         </div>
-        <Article title={title1} text={text1} />
+        <TopImage topImage={topImage} pageTitle={pageTitle} pageText={pageText}/>
         <Prestations prestationsImage={chauffageImage} title={prestationsTitle} listItems={prestationsList}/>
         <Article title={title2} text={text2} />
         <Scroller images={images} />

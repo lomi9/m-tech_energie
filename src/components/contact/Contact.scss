@@ -40,8 +40,8 @@
                 }
                 &-input{
                     @include center;
-                    width: 30vw;
-                    padding: 0.7vw;
+                    width: 35vw;
+                    padding: 0.9vw;
                     margin-bottom: 1vw;
                     background-color: $main-background-color;
                     border: 1px solid $main-color-1;
@@ -58,8 +58,8 @@
                 }
                 &-textarea{
                     @include center;
-                    width: 30vw;
-                    padding-bottom: 7vw;
+                    width: 35vw;
+                    padding: 0.9vw 0.9vw 9vw 0.9vw;
                     margin-bottom: 1vw;
                     background-color: $main-background-color;
                     border: 1px solid $main-color-1;
@@ -166,7 +166,7 @@
     }
 }
 
-@media (max-width : 480px) {
+@media (max-width : 600px) {
     .contact{
 
         &__header-title{

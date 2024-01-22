@@ -16,10 +16,16 @@ import metallerie10 from "../../assets/metallerie_10.jpeg";
 import metallerie11 from "../../assets/metallerie_11.jpg";
 import metallerie12 from "../../assets/metallerie_12.jpg";
 import cardMetallerie from "../../assets/card-metallier-travail-2.webp";
-import Scroller from "../../components/scroller/Scroller";;
+import Scroller from "../../components/scroller/Scroller";import TopImage from "../../components/topImage/TopImage";
+;
 
 
 export default function Metallerie () {
+
+    const topImage = cardMetallerie;
+    const pageTitle = "Nos services de métallerie";
+    const pageText = "Notre galerie de photos illustre notre expertise dans la fabrication sur mesure de tables basses, garde-corps, escaliers et portails extérieurs. Chaque image dévoile notre passion pour le travail du métal, soulignant notre capacité à transformer des idées en réalisations uniques et personnalisées.";
+
 
     const images = [
         { url: metallerie1, description: "Description" },
@@ -61,7 +67,7 @@ export default function Metallerie () {
         <div className="header__navbar">
         <Navbar/>
         </div>
-        <Article title={title1} text={text1} />
+        <TopImage topImage={topImage} pageTitle={pageTitle} pageText={pageText}/>
         <Prestations prestationsImage={metallerieImage} title={prestationsTitle} listItems={prestationsList}/>
         <Article title={title2} text={text2} />
         <Scroller images={images} />

@@ -10,9 +10,14 @@ import prestationsImage from "../../assets/plomberie-baignoire.webp";
 import Scroller from "../../components/scroller/Scroller";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/contact/Contact";
+import TopImage from "../../components/topImage/TopImage";
 
 
 export default function Plomberie () {
+
+    const topImage = prestationsImage;
+    const pageTitle = "Nos services de plomberie";
+    const pageText = "Chez M Tech ENERGIE, nous offrons des services complets allant de l'installation neuve à la rénovation de votre plomberie sanitaire.  Nos compétences techniques nous permettent de répondre à une large gamme de besoins : de l'entretien minutieux au dépannage efficace. Notre équipe qualifiée s'engage également dans la mise en place de solutions durables.";
 
     const images = [
         { url: plomberie1, description: "Réalisation complète d'une salle de douche" },
@@ -46,7 +51,7 @@ export default function Plomberie () {
         <div className="header__navbar">
         <Navbar/>
         </div>
-        <Article title={title1} text={text1} />
+        <TopImage topImage={topImage} pageTitle={pageTitle} pageText={pageText}/>
         <Prestations prestationsImage={imagePrestations} title={prestationsTitle} listItems={prestationsList}/>
         <Article title={title2} text={text2} />
         <Scroller images={images} />
