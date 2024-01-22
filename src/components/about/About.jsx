@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import cardLeft from "../../assets/card-plomberie-tuyaux.webp";
 import cardCenter from "../../assets/card-chaudiere-appartement.webp";
 import cardRight from "../../assets/card-metallier-travail-2.webp";
@@ -30,13 +31,13 @@ export default function About () {
                     <h3 className="services__cards-card-filter-title">
                      Plomberie
                     </h3>
-                    <div className="services__cards-card-filter-button">
+                    <Link to="/plomberie" className="services__cards-card-filter-button">
                         <button className="services__cards-card-filter-button-btn"
                          onMouseEnter={() => setHoverState({ ...hoverState, plomberie: true })}
                          onMouseLeave={() => setHoverState({ ...hoverState, plomberie: false })}>
                      En savoir +
                      </button>
-                    </div>
+                    </Link>
 
                 </div>
                 </div>
@@ -46,13 +47,13 @@ export default function About () {
                     <h3 className="services__cards-card-filter-title">
                      Chauffage
                     </h3>
-                    <div className="services__cards-card-filter-button">
+                    <Link to="/chauffage" className="services__cards-card-filter-button">
                         <button className="services__cards-card-filter-button-btn"
                                                  onMouseEnter={() => setHoverState({ ...hoverState, chauffage: true })}
                                                  onMouseLeave={() => setHoverState({ ...hoverState, chauffage: false })}>
                      En savoir +
                      </button>
-                    </div>
+                    </Link>
 
                 </div>
                 </div>
@@ -62,13 +63,13 @@ export default function About () {
                     <h3 className="services__cards-card-filter-title">
                      Métallerie
                     </h3>
-                    <div className="services__cards-card-filter-button">
+                    <Link to="/metallerie" className="services__cards-card-filter-button">
                         <button className="services__cards-card-filter-button-btn"
                          onMouseEnter={() => setHoverState({ ...hoverState, metallier: true })}
                          onMouseLeave={() => setHoverState({ ...hoverState, metallier: false })}>
                      En savoir +
                      </button>
-                    </div>
+                    </Link>
 
                 </div>
                 </div>
