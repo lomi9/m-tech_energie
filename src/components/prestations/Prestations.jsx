@@ -8,6 +8,7 @@ export default function Prestations ({ prestationsImage, title, listItems }) {
                 <div className="plomberie__services-left-image">
                     <img src={prestationsImage} alt="Plomberie" className="plomberie__services-left-image-img"/>
                 </div>
+                <div className="plomberie__services-left-image-filter"></div>
             </div>
 
             <article className="plomberie__services-right">
