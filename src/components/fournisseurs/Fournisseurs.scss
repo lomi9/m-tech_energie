@@ -1,7 +1,7 @@
 @import "../../utilities.scss";
 
 .fournisseurs {
-    padding: 10% 0;
+    padding: 15% 0 10% 0;
     width: 100%;
     @include center;
     background-color: $main-background-color;
@@ -24,7 +24,7 @@
         &-background{
             will-change: transform;
             position: absolute;
-            top: 60px;
+            top: -490px;
             left: 0;
             width: 100%;
             min-height: 150%;

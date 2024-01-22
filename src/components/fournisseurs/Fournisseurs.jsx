@@ -6,7 +6,7 @@ import fournisseur2 from "../../assets/fournisseurs/logo-chavrier.png";
 import fournisseur3 from "../../assets/fournisseurs/logo-descours.png";
 import fournisseur4 from "../../assets/fournisseurs/logo-richardson.png";
 import fournisseur5 from "../../assets/fournisseurs/logo-tereva.png";
-import background from "../../assets/banner-metallerie-desktop.webp"
+import background from "../../assets/background-img-1.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,12 +45,12 @@ export default function Fournisseurs () {
     useEffect(() => {
         gsap.to(".fournisseurs__bottom-background", {
             scrollTrigger: {
-                trigger: ".fournisseurs__bottom",
-                start: "top bottom+=150", 
-                end: "bottom top", 
+                trigger: ".fournisseurs",
+                start: "top bottom", 
+                end: "bottom top+=200", 
                 scrub: true, 
             },
-            y: -200, 
+            y: 500, 
         });
     }, []);
     

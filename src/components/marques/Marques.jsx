@@ -5,7 +5,7 @@ import marque1 from "../../assets/marques/logo-alantic.png";
 import marque2 from "../../assets/marques/logo-frisquet.png";
 import marque3 from "../../assets/marques/logo-geberit.png";
 import marque4 from "../../assets/marques/logo-thermor.png";
-import background from "../../assets/card-chaudiere-appartement.webp";
+import background from "../../assets/background-img-2.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,12 +38,12 @@ export default function Marques () {
     useEffect(() => {
         gsap.to(".marques__bottom-background", {
             scrollTrigger: {
-                trigger: ".marques__bottom",
-                start: "top bottom+=150", 
-                end: "bottom top", 
+                trigger: ".marques",
+                start: "top bottom", 
+                end: "bottom top+=200", 
                 scrub: true, 
             },
-            y: -200, 
+            y: 500, 
         });
     }, []);
     
