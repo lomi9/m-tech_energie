@@ -11,7 +11,7 @@ export default function Banner () {
             <div className="banner__top">
             <img 
                     src={bannerImgDesktop} 
-                    srcset={`${bannerImgMobile} 500w, ${bannerImgTab} 800w, ${bannerImgDesktop} 1200w`}
+                    srcSet={`${bannerImgMobile} 500w, ${bannerImgTab} 800w, ${bannerImgDesktop} 1200w`}
                     sizes="(max-width: 500px) 500px, (max-width: 800px) 800px, 1200px"
                     alt="Métallier faisant des étincelles" 
                     className="banner__top-img"
